@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GBH Tool&#39;s Manual on GBH Tool Documentations</title>
+    <link>https://thegixo.github.io/GBHToolDocs/docs/</link>
+    <description>Recent content in GBH Tool&#39;s Manual on GBH Tool Documentations</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://thegixo.github.io/GBHToolDocs/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installation</title>
+      <link>https://thegixo.github.io/GBHToolDocs/docs/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thegixo.github.io/GBHToolDocs/docs/installation/</guid>
+      <description>Download Download the GBH Tool from Gumroad
+Install Open Blender and from the top bar click on &amp;quot;Edit&amp;quot; In the &amp;quot;Edit&amp;quot; menu click on &amp;quot;Preference&amp;quot; In the &amp;quot;Preferences&amp;quot; go to the &amp;quot;Add-ons&amp;quot; section Click on &amp;quot;Install&amp;quot; Locate and select the .zip file you&#39;ve downloaded Click on the checkmark to enable the add-on Click on &amp;quot;Save Preferences&amp;quot; in the burger menu to keep the add-on enabled </description>
+    </item>
+    
+    <item>
+      <title>Quick Start</title>
+      <link>https://thegixo.github.io/GBHToolDocs/docs/quick_start/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thegixo.github.io/GBHToolDocs/docs/quick_start/</guid>
+      <description>Opening add-on&#39;s panel Add-on&#39;s panel is located in Blender&#39;s Sidebar(N-Panel) Press &amp;quot;N&amp;quot; on the keyboard to open the Sidebar and then you&#39;ll file add-on&#39;s panel under GBH Tool category Creating and grooming hair object You can use hair curves as well as common curves as hair object. In this example we&#39;re using hair curves. To create hair curves, select the surface object and then press &amp;quot;Shift&amp;quot; + &amp;quot;A&amp;quot; on keyboard. From the pop up menu select empty hair under curve category.</description>
+    </item>
+    
+    <item>
+      <title>Presets</title>
+      <link>https://thegixo.github.io/GBHToolDocs/docs/presets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thegixo.github.io/GBHToolDocs/docs/presets/</guid>
+      <description>UI Presets section is located under hair object selection section in the add-on&#39;s panel.
+Categories Presets are categorized into four groups:
+Hair Strands Hair Cards Stylized Hair Hair Objects Categories are only used to organize presets. The &amp;quot;Hair Objects&amp;quot; category has one difference from the other categories and that&#39;s it saves/loads the hair object itself as well. This means that you can import hair objects from this category without the need to make and select a hair object first.</description>
+    </item>
+    
+    <item>
+      <title>Hair Modification</title>
+      <link>https://thegixo.github.io/GBHToolDocs/docs/hair_modification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thegixo.github.io/GBHToolDocs/docs/hair_modification/</guid>
+      <description>UI After selecting hair object a new section called &amp;quot;Hair Modifications&amp;quot; will appear.
+I this section all of the hair object&#39;s modifiers are shown and selecting each modifiers will bring its relevant inputs and output.
+As you can see this add can show float curves and color ramps as inputs. Head over to here to see how you can modify your own node groups to use this feature.
+Arranging modifiers Modifiers order can be changed using the highlighted icons.</description>
+    </item>
+    
+    <item>
+      <title>Library</title>
+      <link>https://thegixo.github.io/GBHToolDocs/docs/library/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thegixo.github.io/GBHToolDocs/docs/library/</guid>
+      <description>UI Settings You can access library&#39;s setting by clicking on the gear icon.
+Add Node Groups to Active Object in Viewport: adds selected node groups to the active object(s) in the viewport instead of selected hair object in add-on&#39;s UI Automatically Pack Resources: automatically packs all external files into current .blend file Select Personal Directory: directory which you want to load node groups saved in .blend files from into library View options You can change between grid view and list view by clicking on the icon highlighted in the image below.</description>
+    </item>
+    
+    <item>
+      <title>Node Groups</title>
+      <link>https://thegixo.github.io/GBHToolDocs/docs/node_groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thegixo.github.io/GBHToolDocs/docs/node_groups/</guid>
+      <description>Pre-defined GBH node groups Braids
+Creates braided hair from each hair curve.
+Controls:
+Threads: number of threads in the braid X axis width: total width of the braided hair on X axis Y axis width: total width of the braided hair on Y axis Width control float curve: control the total width of the braided hair over its length Tightness: tightness of braids Tightness control float curve: control the tightness of the braided hair over its length Profile Line Hair Cards</description>
+    </item>
+    
+    <item>
+      <title>Conversion</title>
+      <link>https://thegixo.github.io/GBHToolDocs/docs/conversion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thegixo.github.io/GBHToolDocs/docs/conversion/</guid>
+      <description>UI To mesh Suitable for converting stylized/cards hair to a mesh object for exporting to another software like game engines.
+To curve Suitable to convert groomed hair curves to curve object to have more control over the tilt and scale of curve when creating stylized/cards hair.
+Controls
+Curve points: number of segment each curve will have after conversion To hair curves Suitable to convert curve object to hair curves or applying all hair curves modifiers and have it as a new object.</description>
+    </item>
+    
+    <item>
+      <title>Rigging</title>
+      <link>https://thegixo.github.io/GBHToolDocs/docs/rigging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thegixo.github.io/GBHToolDocs/docs/rigging/</guid>
+      <description>UI Creating armature This feature generates an armature for the selected hair object in the add-on&#39;s UI.
+To begin creating, first select the hair object in the add-on&#39;s UI, then head over to &amp;quot;Rigging&amp;quot; section and in the &amp;quot;Create Armature&amp;quot; sub category click on &amp;quot;Generate Armature&amp;quot;.
+Options
+Number of bones in each chain: number of bones created in each chain on each hair curve Density of bone chains: ratio of bones chains to the total amount of hair curves Reverse chains direction: reverses the direction of bones chains created on hair curves Add parent bones: creates an extra parent bone located at the origin point of hair object, and setting all the bone chains parented to it Chains start point trim: moves the starting point of the bone chain on each hair curve Chains end point trim: moves the ending point of the bone chain on each hair curve Live Preview</description>
+    </item>
+    
+    <item>
+      <title>Preferences</title>
+      <link>https://thegixo.github.io/GBHToolDocs/docs/preferences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thegixo.github.io/GBHToolDocs/docs/preferences/</guid>
+      <description>UI Add-on&#39;s preferences can be accessed by opening Blender&#39;s preferences in Edit &amp;gt; Preferences &amp;gt; Add-ons
+And then search for GBH Tool in the add-ons
+Toggle panels You can turn of each section of the add-on&#39;s UI which you don&#39;t use with these toggles.
+Library settings You can change icon colors of the library and the number of items shown in each page of the library in this section.
+Open add-on&#39;s installation sub-folders You can back up your presets or open GBH library folder in the add-on&#39;s installation directory in this section.</description>
+    </item>
+    
+  </channel>
+</rss>
