@@ -107,14 +107,5 @@ Library settings You can change icon colors of the library and the number of ite
 Open add-on&#39;s installation sub-folders You can back up your presets or open GBH library folder in the add-on&#39;s installation directory in this section.</description>
     </item>
     
-    <item>
-      <title>Search</title>
-      <link>https://thegixo.github.io/GBHToolDocs/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://thegixo.github.io/GBHToolDocs/search/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
