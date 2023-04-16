@@ -1,0 +1,9 @@
+{
+    "gbh_tool": [
+        {
+            "name": "GBH Tool",
+            "version": "2.1.0",
+            "blender_version": "3.5.0"
+        }
+    ]
+}
