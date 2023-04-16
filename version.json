@@ -4,13 +4,20 @@
         "version": "2.0.3",
         "blender_version": "3.5.0",
         "release_type": "stable",
-        "message": ""
+        "message": "",
+        "changelog": ""
     },
     "gbh_tool_latest": {
         "name": "GBH Tool",
         "version": "2.1.0",
         "blender_version": "3.5.0",
         "release_type": "beta",
-        "message": "Hair card texturing feature has been added in this version."
+        "message": "",
+        "changelog": [
+            "Feature: hair card texturing",
+            "Feature: update checking",
+            "Fix: hair object transform in armature creation",
+            "Fix: GBH presets having different behavior in viewport and render view"
+        ]
     }
 }
