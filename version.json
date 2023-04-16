@@ -3,12 +3,14 @@
         "name": "GBH Tool",
         "version": "2.0.3",
         "blender_version": "3.5.0",
-        "release_type": "stable"
+        "release_type": "stable",
+        "message": ""
     },
     "gbh_tool_latest": {
         "name": "GBH Tool",
         "version": "2.1.0",
         "blender_version": "3.5.0",
-        "release_type": "beta"
+        "release_type": "beta",
+        "message": ""
     }
 }
