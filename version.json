@@ -11,7 +11,7 @@
         "name": "GBH Tool",
         "version": "2.1.0.2",
         "blender_version": "3.5.0",
-        "release_type": "beta2",
+        "release_type": "beta",
         "message": "If you're running v2.1.0 beta1 and lower I recommend you to remove add-on and restart Blender before installing the updates.",
         "changelog": [
             "Feature: particle systems to hair curves conversion",
