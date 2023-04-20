@@ -1,7 +1,7 @@
 {
     "gbh_tool_stable": {
         "name": "GBH Tool",
-        "version": "2.0.3",
+        "version": "2.0.3.0",
         "blender_version": "3.5.0",
         "release_type": "stable",
         "message": "",
@@ -9,15 +9,18 @@
     },
     "gbh_tool_latest": {
         "name": "GBH Tool",
-        "version": "2.1.0",
+        "version": "2.1.0.2",
         "blender_version": "3.5.0",
-        "release_type": "beta",
-        "message": "",
+        "release_type": "beta2",
+        "message": "If you're running v2.1.0 beta1 and lower I recommend you to remove add-on and restart Blender before installing the updates.",
         "changelog": [
-            "Feature: hair card texturing",
-            "Feature: update checking",
-            "Fix: hair object transform in armature creation",
-            "Fix: GBH presets having different behavior in viewport and render view"
+            "Feature: particle systems to hair curves conversion",
+            "Feature: attach hair curves to objects surface",
+            "Improvement: module reloading logic for cleaner update installation",
+            "Improvement: under the hood library logic",
+            "Change: update checking system with 24 hrs checking intervals",
+            "Fix: GBH node group namings",
+            "Fix: small UI bug fixes"
         ]
     }
 }
