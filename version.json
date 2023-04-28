@@ -1,26 +1,30 @@
 {
     "gbh_tool_stable": {
         "name": "GBH Tool",
-        "version": "2.0.3.0",
+        "version": "2.1.0.4",
         "blender_version": "3.5.0",
         "release_type": "stable",
-        "message": "",
-        "changelog": ""
+        "message": "Your feedback is highly appreciated and helpful, contact info is found under the info panel.",
+        "changelog": [
+            "feat: more conversion options",
+            "feat: panel toggle pie menu accessible by alt + h shortcut",
+            "Improvement: cleaner UI",
+            "Improvement: under the hood improvements and redundancy",
+            "fix: minor bug fixes"
+        ]
     },
     "gbh_tool_latest": {
         "name": "GBH Tool",
-        "version": "2.1.0.2",
+        "version": "2.1.0.4",
         "blender_version": "3.5.0",
-        "release_type": "beta",
-        "message": "If you're running v2.1.0 beta1 and lower I recommend you to remove add-on and restart Blender before installing the updates.",
+        "release_type": "stable",
+        "message": "Your feedback is highly appreciated and helpful, contact info is found under the info panel.",
         "changelog": [
-            "Feature: particle systems to hair curves conversion",
-            "Feature: attach hair curves to objects surface",
-            "Improvement: module reloading logic for cleaner update installation",
-            "Improvement: under the hood library logic",
-            "Change: update checking system with 24 hrs checking intervals",
-            "Fix: GBH node group namings",
-            "Fix: small UI bug fixes"
+            "feat: more conversion options",
+            "feat: panel toggle pie menu accessible by alt + h shortcut",
+            "Improvement: cleaner UI",
+            "Improvement: under the hood improvements and redundancy",
+            "fix: minor bug fixes"
         ]
     }
 }
