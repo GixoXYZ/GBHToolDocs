@@ -26,7 +26,7 @@ Install Open Blender and from the top bar click on &amp;quot;Edit&amp;quot; In t
     </item>
     
     <item>
-      <title>Presets</title>
+      <title>Presets and Copy Modifiers</title>
       <link>https://thegixo.github.io/GBHToolDocs/docs/presets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -77,9 +77,9 @@ Threads: number of threads in the braid X axis width: total width of the braided
       
       <guid>https://thegixo.github.io/GBHToolDocs/docs/conversion/</guid>
       <description>UI To mesh Suitable for converting stylized/cards hair to a mesh object for exporting to another software like game engines.
-To curve Suitable to convert groomed hair curves to curve object to have more control over the tilt and scale of curve when creating stylized/cards hair.
+To curve Suitable for converting groomed hair curves to curve object to have more control over the tilt and scale of curve when creating stylized/cards hair.
 Controls
-Curve points: number of segment each curve will have after conversion To hair curves Suitable to convert curve object to hair curves or applying all hair curves modifiers and have it as a new object.</description>
+Curve points: number of segment each curve will have after conversion To hair curves Suitable for converting curve object to hair curves or applying all hair curves modifiers and have it as a new object.</description>
     </item>
     
     <item>
@@ -95,6 +95,17 @@ Number of bones in each chain: number of bones created in each chain on each hai
     </item>
     
     <item>
+      <title>Hair Card Texturing</title>
+      <link>https://thegixo.github.io/GBHToolDocs/docs/hair_card/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thegixo.github.io/GBHToolDocs/docs/hair_card/</guid>
+      <description>UI Start creating textures To begin creating hair card textures first select the texture quality you want your textures to be (it&#39;s possible to change the quality later), then click on &amp;quot;Create Texturing Scene&amp;quot;.
+This will create a new scene in your .blend file for you to create new hair objects objects and render them as textures.
+Creating hair objects All hair curves and curve objects present in the scene are listed in the &amp;quot;Hair Objects&amp;quot; section.</description>
+    </item>
+    
+    <item>
       <title>Preferences</title>
       <link>https://thegixo.github.io/GBHToolDocs/docs/preferences/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -102,9 +113,9 @@ Number of bones in each chain: number of bones created in each chain on each hai
       <guid>https://thegixo.github.io/GBHToolDocs/docs/preferences/</guid>
       <description>UI Add-on&#39;s preferences can be accessed by opening Blender&#39;s preferences in Edit &amp;gt; Preferences &amp;gt; Add-ons
 And then search for GBH Tool in the add-ons
+Update checker You can check for updates or toggle auto update checker in this section.
 Toggle panels You can turn of each section of the add-on&#39;s UI which you don&#39;t use with these toggles.
-Library settings You can change icon colors of the library and the number of items shown in each page of the library in this section.
-Open add-on&#39;s installation sub-folders You can back up your presets or open GBH library folder in the add-on&#39;s installation directory in this section.</description>
+Library settings You can change icon colors of the library and the number of items shown in each page of the library in this section.</description>
     </item>
     
   </channel>

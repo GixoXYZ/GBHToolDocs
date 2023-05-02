@@ -16,9 +16,9 @@
 <title>Preferences | GBH Tool Documentations</title><meta property="og:title" content="Preferences" />
 <meta property="og:description" content="UI Add-on&#39;s preferences can be accessed by opening Blender&#39;s preferences in Edit &gt; Preferences &gt; Add-ons
 And then search for GBH Tool in the add-ons
+Update checker You can check for updates or toggle auto update checker in this section.
 Toggle panels You can turn of each section of the add-on&#39;s UI which you don&#39;t use with these toggles.
-Library settings You can change icon colors of the library and the number of items shown in each page of the library in this section.
-Open add-on&#39;s installation sub-folders You can back up your presets or open GBH library folder in the add-on&#39;s installation directory in this section." />
+Library settings You can change icon colors of the library and the number of items shown in each page of the library in this section." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://thegixo.github.io/GBHToolDocs/docs/preferences/" /><meta property="article:section" content="docs" />
 
@@ -26,18 +26,18 @@ Open add-on&#39;s installation sub-folders You can back up your presets or open 
 <meta itemprop="name" content="Preferences">
 <meta itemprop="description" content="UI Add-on&#39;s preferences can be accessed by opening Blender&#39;s preferences in Edit &gt; Preferences &gt; Add-ons
 And then search for GBH Tool in the add-ons
+Update checker You can check for updates or toggle auto update checker in this section.
 Toggle panels You can turn of each section of the add-on&#39;s UI which you don&#39;t use with these toggles.
-Library settings You can change icon colors of the library and the number of items shown in each page of the library in this section.
-Open add-on&#39;s installation sub-folders You can back up your presets or open GBH library folder in the add-on&#39;s installation directory in this section.">
+Library settings You can change icon colors of the library and the number of items shown in each page of the library in this section.">
 <meta itemprop="dateModified" content="2023-04-08T12:06:31+03:30" />
-<meta itemprop="wordCount" content="92">
+<meta itemprop="wordCount" content="107">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Preferences"/>
 <meta name="twitter:description" content="UI Add-on&#39;s preferences can be accessed by opening Blender&#39;s preferences in Edit &gt; Preferences &gt; Add-ons
 And then search for GBH Tool in the add-ons
+Update checker You can check for updates or toggle auto update checker in this section.
 Toggle panels You can turn of each section of the add-on&#39;s UI which you don&#39;t use with these toggles.
-Library settings You can change icon colors of the library and the number of items shown in each page of the library in this section.
-Open add-on&#39;s installation sub-folders You can back up your presets or open GBH library folder in the add-on&#39;s installation directory in this section."/>
+Library settings You can change icon colors of the library and the number of items shown in each page of the library in this section."/>
 
 
 <link rel="stylesheet" href="https://thegixo.github.io/GBHToolDocs/css/styles.754cfaaeae05062216ee21925ea3f195a89a61ce19b688c0728925e20d2007e8f17907553be274f5148e25e1fd9c063ac3ae8c2cfc693887196dd261903a7034.css" integrity="sha512-dUz6rq4FBiIW7iGSXqPxlaiaYc4ZtojAcokl4g0gB&#43;jxeQdVO&#43;J09RSOJeH9nAY6w66MLPxpOIcZbdJhkDpwNA==">
@@ -47,9 +47,9 @@ Open add-on&#39;s installation sub-folders You can back up your presets or open 
 
   <meta name="description" content="UI Add-on&#39;s preferences can be accessed by opening Blender&#39;s preferences in Edit &amp;gt; Preferences &amp;gt; Add-ons
 And then search for GBH Tool in the add-ons
+Update checker You can check for updates or toggle auto update checker in this section.
 Toggle panels You can turn of each section of the add-on&#39;s UI which you don&#39;t use with these toggles.
-Library settings You can change icon colors of the library and the number of items shown in each page of the library in this section.
-Open add-on&#39;s installation sub-folders You can back up your presets or open GBH library folder in the add-on&#39;s installation directory in this section.">
+Library settings You can change icon colors of the library and the number of items shown in each page of the library in this section.">
 
 
 </head>
@@ -77,6 +77,9 @@ Open add-on&#39;s installation sub-folders You can back up your presets or open 
 		</li>
 		<li class="nav-item">
 			<a class="nav-link" href="https://thegixo.github.io/GBHToolDocs/tutorials/"><span>Tutorials</span></a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="https://thegixo.github.io/GBHToolDocs/changelog/"><span>Changelog</span></a>
 		</li>
 		
 		<li class="nav-item nav_repo">
@@ -129,12 +132,13 @@ Open add-on&#39;s installation sub-folders You can back up your presets or open 
     <li><a href="#changing-hairs-material">Changing hair's material</a></li>
   </ul>
 </nav>
-        <h3 class="section_link"><a id="docs-presets" href="https://thegixo.github.io/GBHToolDocs/docs/presets/">Presets</a></h3><nav id="TableOfContents">
+        <h3 class="section_link"><a id="docs-presets-and-copy-modifiers" href="https://thegixo.github.io/GBHToolDocs/docs/presets/">Presets and Copy Modifiers</a></h3><nav id="TableOfContents">
   <ul>
     <li><a href="#ui">UI</a></li>
     <li><a href="#categories">Categories</a></li>
     <li><a href="#applying-presets-to-hair-object">Applying presets to hair object</a></li>
     <li><a href="#savingremoving-presets">Saving/removing presets</a></li>
+    <li><a href="#copying-modifiers-and-nodes-groups-from-another-hair-object">Copying modifiers and nodes groups from another hair object</a></li>
   </ul>
 </nav>
         <h3 class="section_link"><a id="docs-hair-modification" href="https://thegixo.github.io/GBHToolDocs/docs/hair_modification/">Hair Modification</a></h3><nav id="TableOfContents">
@@ -168,6 +172,8 @@ Open add-on&#39;s installation sub-folders You can back up your presets or open 
     <li><a href="#to-mesh">To mesh</a></li>
     <li><a href="#to-curve">To curve</a></li>
     <li><a href="#to-hair-curves">To hair curves</a></li>
+    <li><a href="#attach-hair-curves-to-surface">Attach hair curves to surface</a></li>
+    <li><a href="#particle-systems-to-hair-curves">Particle systems to hair curves</a></li>
     <li><a href="#to-particle-systemdeprecated">To particle system(deprecated)</a></li>
   </ul>
 </nav>
@@ -177,9 +183,19 @@ Open add-on&#39;s installation sub-folders You can back up your presets or open 
     <li><a href="#creating-armature">Creating armature</a></li>
   </ul>
 </nav>
+        <h3 class="section_link"><a id="docs-hair-card-texturing" href="https://thegixo.github.io/GBHToolDocs/docs/hair_card/">Hair Card Texturing</a></h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#ui">UI</a></li>
+    <li><a href="#start-creating-textures">Start creating textures</a></li>
+    <li><a href="#creating-hair-objects">Creating hair objects</a></li>
+    <li><a href="#camera-settings">Camera settings</a></li>
+    <li><a href="#output-settings">Output settings</a></li>
+  </ul>
+</nav>
         <h3 class="section_link active"><a id="docs-preferences" href="https://thegixo.github.io/GBHToolDocs/docs/preferences/">Preferences</a></h3><nav id="TableOfContents">
   <ul>
     <li><a href="#ui">UI</a></li>
+    <li><a href="#update-checker">Update checker</a></li>
     <li><a href="#toggle-panels">Toggle panels</a></li>
     <li><a href="#library-settings">Library settings</a></li>
     <li><a href="#open-add-ons-installation-sub-folders">Open add-on's installation sub-folders</a></li>
@@ -200,27 +216,32 @@ Open add-on&#39;s installation sub-folders You can back up your presets or open 
 <div><img width=100% src="../../images/docs/preferences/03.png"></div>
 
 <hr>
+<h2 id="update-checker">Update checker</h2>
+<p>You can check for updates or toggle auto update checker in this section.</p>
+<div><img width=100% src="../../images/docs/preferences/04.png"></div>
+
+<hr>
 <h2 id="toggle-panels">Toggle panels</h2>
 <p>You can turn of each section of the add-on's UI which you don't use with these toggles.</p>
-<div><img width=100% src="../../images/docs/preferences/04.png"></div>
+<div><img width=100% src="../../images/docs/preferences/05.png"></div>
 
 <hr>
 <h2 id="library-settings">Library settings</h2>
 <p>You can change icon colors of the library and the number of items shown in each page of the library in this section.</p>
-<div><img width=100% src="../../images/docs/preferences/05.png"></div>
+<div><img width=100% src="../../images/docs/preferences/06.png"></div>
 
 <hr>
 <h2 id="open-add-ons-installation-sub-folders">Open add-on's installation sub-folders</h2>
 <p>You can back up your presets or open GBH library folder in the add-on's installation directory in this section.</p>
-<div><img width=100% src="../../images/docs/preferences/06.png"></div>
+<div><img width=100% src="../../images/docs/preferences/07.png"></div>
 
 
     <div class="pager">
   
     
     <div class="pager_item prev">
-      <a href="https://thegixo.github.io/GBHToolDocs/docs/rigging/" class="pager_link button" title="Rigging" rel="prev">
-        <span class="pager_label">Rigging</span>
+      <a href="https://thegixo.github.io/GBHToolDocs/docs/hair_card/" class="pager_link button" title="Hair Card Texturing" rel="prev">
+        <span class="pager_label">Hair Card Texturing</span>
       </a>
     </div>
     

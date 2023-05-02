@@ -28,7 +28,7 @@ To begin creating, first select the hair object in the add-on&#39;s UI, then hea
 Options
 Number of bones in each chain: number of bones created in each chain on each hair curve Density of bone chains: ratio of bones chains to the total amount of hair curves Reverse chains direction: reverses the direction of bones chains created on hair curves Add parent bones: creates an extra parent bone located at the origin point of hair object, and setting all the bone chains parented to it Chains start point trim: moves the starting point of the bone chain on each hair curve Chains end point trim: moves the ending point of the bone chain on each hair curve Live Preview">
 <meta itemprop="dateModified" content="2023-04-08T12:06:31+03:30" />
-<meta itemprop="wordCount" content="243">
+<meta itemprop="wordCount" content="241">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Rigging"/>
 <meta name="twitter:description" content="UI Creating armature This feature generates an armature for the selected hair object in the add-on&#39;s UI.
@@ -73,6 +73,9 @@ Number of bones in each chain: number of bones created in each chain on each hai
 		</li>
 		<li class="nav-item">
 			<a class="nav-link" href="https://thegixo.github.io/GBHToolDocs/tutorials/"><span>Tutorials</span></a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="https://thegixo.github.io/GBHToolDocs/changelog/"><span>Changelog</span></a>
 		</li>
 		
 		<li class="nav-item nav_repo">
@@ -125,12 +128,13 @@ Number of bones in each chain: number of bones created in each chain on each hai
     <li><a href="#changing-hairs-material">Changing hair's material</a></li>
   </ul>
 </nav>
-        <h3 class="section_link"><a id="docs-presets" href="https://thegixo.github.io/GBHToolDocs/docs/presets/">Presets</a></h3><nav id="TableOfContents">
+        <h3 class="section_link"><a id="docs-presets-and-copy-modifiers" href="https://thegixo.github.io/GBHToolDocs/docs/presets/">Presets and Copy Modifiers</a></h3><nav id="TableOfContents">
   <ul>
     <li><a href="#ui">UI</a></li>
     <li><a href="#categories">Categories</a></li>
     <li><a href="#applying-presets-to-hair-object">Applying presets to hair object</a></li>
     <li><a href="#savingremoving-presets">Saving/removing presets</a></li>
+    <li><a href="#copying-modifiers-and-nodes-groups-from-another-hair-object">Copying modifiers and nodes groups from another hair object</a></li>
   </ul>
 </nav>
         <h3 class="section_link"><a id="docs-hair-modification" href="https://thegixo.github.io/GBHToolDocs/docs/hair_modification/">Hair Modification</a></h3><nav id="TableOfContents">
@@ -164,6 +168,8 @@ Number of bones in each chain: number of bones created in each chain on each hai
     <li><a href="#to-mesh">To mesh</a></li>
     <li><a href="#to-curve">To curve</a></li>
     <li><a href="#to-hair-curves">To hair curves</a></li>
+    <li><a href="#attach-hair-curves-to-surface">Attach hair curves to surface</a></li>
+    <li><a href="#particle-systems-to-hair-curves">Particle systems to hair curves</a></li>
     <li><a href="#to-particle-systemdeprecated">To particle system(deprecated)</a></li>
   </ul>
 </nav>
@@ -173,9 +179,19 @@ Number of bones in each chain: number of bones created in each chain on each hai
     <li><a href="#creating-armature">Creating armature</a></li>
   </ul>
 </nav>
+        <h3 class="section_link"><a id="docs-hair-card-texturing" href="https://thegixo.github.io/GBHToolDocs/docs/hair_card/">Hair Card Texturing</a></h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#ui">UI</a></li>
+    <li><a href="#start-creating-textures">Start creating textures</a></li>
+    <li><a href="#creating-hair-objects">Creating hair objects</a></li>
+    <li><a href="#camera-settings">Camera settings</a></li>
+    <li><a href="#output-settings">Output settings</a></li>
+  </ul>
+</nav>
         <h3 class="section_link"><a id="docs-preferences" href="https://thegixo.github.io/GBHToolDocs/docs/preferences/">Preferences</a></h3><nav id="TableOfContents">
   <ul>
     <li><a href="#ui">UI</a></li>
+    <li><a href="#update-checker">Update checker</a></li>
     <li><a href="#toggle-panels">Toggle panels</a></li>
     <li><a href="#library-settings">Library settings</a></li>
     <li><a href="#open-add-ons-installation-sub-folders">Open add-on's installation sub-folders</a></li>
@@ -214,9 +230,9 @@ Number of bones in each chain: number of bones created in each chain on each hai
 <p>Uses the geometry created by after applying hair objects modifier instead of the original hair object.</p>
 
 <div class="tip">
-  <p>This option could easily results in Blender crashing if the geometry made by modifiers is too dense or is mesh.</p>
-<p>Make sure to turn off modifiers which create mesh geometry such as profile and hair cards node groups.</p>
+  <p>This option could easily results in Blender crashing if the geometry made by modifiers is too dense.</p>
 <p>Make sure to backup your .blend file before using this option.</p>
+<p>The node groups which create mesh are not used and are listed at the highlighted section in the image.</p>
 
 </div>
 
@@ -237,8 +253,8 @@ Number of bones in each chain: number of bones created in each chain on each hai
   
     
     <div class="pager_item next">
-      <a href="https://thegixo.github.io/GBHToolDocs/docs/preferences/" class="pager_link button" title="Preferences" rel="next">
-        <span class="pager_label">Preferences</span>
+      <a href="https://thegixo.github.io/GBHToolDocs/docs/hair_card/" class="pager_link button" title="Hair Card Texturing" rel="next">
+        <span class="pager_label">Hair Card Texturing</span>
       </a>
     </div>
     

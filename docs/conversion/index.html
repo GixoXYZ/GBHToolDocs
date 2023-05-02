@@ -15,26 +15,26 @@
 <meta name="msapplication-config" content='https://thegixo.github.io/GBHToolDocs/favicons/browserconfig.xml'>
 <title>Conversion | GBH Tool Documentations</title><meta property="og:title" content="Conversion" />
 <meta property="og:description" content="UI To mesh Suitable for converting stylized/cards hair to a mesh object for exporting to another software like game engines.
-To curve Suitable to convert groomed hair curves to curve object to have more control over the tilt and scale of curve when creating stylized/cards hair.
+To curve Suitable for converting groomed hair curves to curve object to have more control over the tilt and scale of curve when creating stylized/cards hair.
 Controls
-Curve points: number of segment each curve will have after conversion To hair curves Suitable to convert curve object to hair curves or applying all hair curves modifiers and have it as a new object." />
+Curve points: number of segment each curve will have after conversion To hair curves Suitable for converting curve object to hair curves or applying all hair curves modifiers and have it as a new object." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://thegixo.github.io/GBHToolDocs/docs/conversion/" /><meta property="article:section" content="docs" />
 
 <meta property="article:modified_time" content="2023-04-08T12:06:31+03:30" />
 <meta itemprop="name" content="Conversion">
 <meta itemprop="description" content="UI To mesh Suitable for converting stylized/cards hair to a mesh object for exporting to another software like game engines.
-To curve Suitable to convert groomed hair curves to curve object to have more control over the tilt and scale of curve when creating stylized/cards hair.
+To curve Suitable for converting groomed hair curves to curve object to have more control over the tilt and scale of curve when creating stylized/cards hair.
 Controls
-Curve points: number of segment each curve will have after conversion To hair curves Suitable to convert curve object to hair curves or applying all hair curves modifiers and have it as a new object.">
+Curve points: number of segment each curve will have after conversion To hair curves Suitable for converting curve object to hair curves or applying all hair curves modifiers and have it as a new object.">
 <meta itemprop="dateModified" content="2023-04-08T12:06:31+03:30" />
-<meta itemprop="wordCount" content="151">
+<meta itemprop="wordCount" content="189">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Conversion"/>
 <meta name="twitter:description" content="UI To mesh Suitable for converting stylized/cards hair to a mesh object for exporting to another software like game engines.
-To curve Suitable to convert groomed hair curves to curve object to have more control over the tilt and scale of curve when creating stylized/cards hair.
+To curve Suitable for converting groomed hair curves to curve object to have more control over the tilt and scale of curve when creating stylized/cards hair.
 Controls
-Curve points: number of segment each curve will have after conversion To hair curves Suitable to convert curve object to hair curves or applying all hair curves modifiers and have it as a new object."/>
+Curve points: number of segment each curve will have after conversion To hair curves Suitable for converting curve object to hair curves or applying all hair curves modifiers and have it as a new object."/>
 
 
 <link rel="stylesheet" href="https://thegixo.github.io/GBHToolDocs/css/styles.754cfaaeae05062216ee21925ea3f195a89a61ce19b688c0728925e20d2007e8f17907553be274f5148e25e1fd9c063ac3ae8c2cfc693887196dd261903a7034.css" integrity="sha512-dUz6rq4FBiIW7iGSXqPxlaiaYc4ZtojAcokl4g0gB&#43;jxeQdVO&#43;J09RSOJeH9nAY6w66MLPxpOIcZbdJhkDpwNA==">
@@ -43,9 +43,9 @@ Curve points: number of segment each curve will have after conversion To hair cu
 
 
   <meta name="description" content="UI To mesh Suitable for converting stylized/cards hair to a mesh object for exporting to another software like game engines.
-To curve Suitable to convert groomed hair curves to curve object to have more control over the tilt and scale of curve when creating stylized/cards hair.
+To curve Suitable for converting groomed hair curves to curve object to have more control over the tilt and scale of curve when creating stylized/cards hair.
 Controls
-Curve points: number of segment each curve will have after conversion To hair curves Suitable to convert curve object to hair curves or applying all hair curves modifiers and have it as a new object.">
+Curve points: number of segment each curve will have after conversion To hair curves Suitable for converting curve object to hair curves or applying all hair curves modifiers and have it as a new object.">
 
 
 </head>
@@ -73,6 +73,9 @@ Curve points: number of segment each curve will have after conversion To hair cu
 		</li>
 		<li class="nav-item">
 			<a class="nav-link" href="https://thegixo.github.io/GBHToolDocs/tutorials/"><span>Tutorials</span></a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="https://thegixo.github.io/GBHToolDocs/changelog/"><span>Changelog</span></a>
 		</li>
 		
 		<li class="nav-item nav_repo">
@@ -125,12 +128,13 @@ Curve points: number of segment each curve will have after conversion To hair cu
     <li><a href="#changing-hairs-material">Changing hair's material</a></li>
   </ul>
 </nav>
-        <h3 class="section_link"><a id="docs-presets" href="https://thegixo.github.io/GBHToolDocs/docs/presets/">Presets</a></h3><nav id="TableOfContents">
+        <h3 class="section_link"><a id="docs-presets-and-copy-modifiers" href="https://thegixo.github.io/GBHToolDocs/docs/presets/">Presets and Copy Modifiers</a></h3><nav id="TableOfContents">
   <ul>
     <li><a href="#ui">UI</a></li>
     <li><a href="#categories">Categories</a></li>
     <li><a href="#applying-presets-to-hair-object">Applying presets to hair object</a></li>
     <li><a href="#savingremoving-presets">Saving/removing presets</a></li>
+    <li><a href="#copying-modifiers-and-nodes-groups-from-another-hair-object">Copying modifiers and nodes groups from another hair object</a></li>
   </ul>
 </nav>
         <h3 class="section_link"><a id="docs-hair-modification" href="https://thegixo.github.io/GBHToolDocs/docs/hair_modification/">Hair Modification</a></h3><nav id="TableOfContents">
@@ -164,6 +168,8 @@ Curve points: number of segment each curve will have after conversion To hair cu
     <li><a href="#to-mesh">To mesh</a></li>
     <li><a href="#to-curve">To curve</a></li>
     <li><a href="#to-hair-curves">To hair curves</a></li>
+    <li><a href="#attach-hair-curves-to-surface">Attach hair curves to surface</a></li>
+    <li><a href="#particle-systems-to-hair-curves">Particle systems to hair curves</a></li>
     <li><a href="#to-particle-systemdeprecated">To particle system(deprecated)</a></li>
   </ul>
 </nav>
@@ -173,9 +179,19 @@ Curve points: number of segment each curve will have after conversion To hair cu
     <li><a href="#creating-armature">Creating armature</a></li>
   </ul>
 </nav>
+        <h3 class="section_link"><a id="docs-hair-card-texturing" href="https://thegixo.github.io/GBHToolDocs/docs/hair_card/">Hair Card Texturing</a></h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#ui">UI</a></li>
+    <li><a href="#start-creating-textures">Start creating textures</a></li>
+    <li><a href="#creating-hair-objects">Creating hair objects</a></li>
+    <li><a href="#camera-settings">Camera settings</a></li>
+    <li><a href="#output-settings">Output settings</a></li>
+  </ul>
+</nav>
         <h3 class="section_link"><a id="docs-preferences" href="https://thegixo.github.io/GBHToolDocs/docs/preferences/">Preferences</a></h3><nav id="TableOfContents">
   <ul>
     <li><a href="#ui">UI</a></li>
+    <li><a href="#update-checker">Update checker</a></li>
     <li><a href="#toggle-panels">Toggle panels</a></li>
     <li><a href="#library-settings">Library settings</a></li>
     <li><a href="#open-add-ons-installation-sub-folders">Open add-on's installation sub-folders</a></li>
@@ -196,7 +212,7 @@ Curve points: number of segment each curve will have after conversion To hair cu
 
 <hr>
 <h2 id="to-curve">To curve</h2>
-<p>Suitable to convert groomed hair curves to curve object to have more control over the tilt and scale of curve when creating stylized/cards hair.</p>
+<p>Suitable for converting groomed hair curves to curve object to have more control over the tilt and scale of curve when creating stylized/cards hair.</p>
 <p><strong>Controls</strong></p>
 <ul>
 <li>Curve points: number of segment each curve will have after conversion</li>
@@ -205,8 +221,18 @@ Curve points: number of segment each curve will have after conversion To hair cu
 
 <hr>
 <h2 id="to-hair-curves">To hair curves</h2>
-<p>Suitable to convert curve object to hair curves or applying all hair curves modifiers and have it as a new object.</p>
+<p>Suitable for converting curve object to hair curves or applying all hair curves modifiers and have it as a new object.</p>
 <div><img src="../../images/docs/conversion/04.png"></div>
+
+<hr>
+<h2 id="attach-hair-curves-to-surface">Attach hair curves to surface</h2>
+<p>Suitable for attaching hair curves objects to a mesh object, by selecting the mesh object and its UV map.</p>
+<div><img src="../../images/docs/conversion/05.png"></div>
+
+<hr>
+<h2 id="particle-systems-to-hair-curves">Particle systems to hair curves</h2>
+<p>Suitable for converting hair particle systems to hair curves.</p>
+<div><img src="../../images/docs/conversion/06.png"></div>
 
 <hr>
 <h2 id="to-particle-systemdeprecated">To particle system(deprecated)</h2>
@@ -216,14 +242,14 @@ Curve points: number of segment each curve will have after conversion To hair cu
   This feature only converts the active hair curves object in the viewport, so make sure to select the hair object in the viewport first.
 </div>
 
-<div><img src="../../images/docs/conversion/05.png"></div>
+<div><img src="../../images/docs/conversion/07.png"></div>
 
 <p><strong>Options</strong></p>
 <ul>
 <li>Parent object: the object which the hair will be added to as particle system</li>
 <li>Parent's UV map: UV map of the parent object</li>
 </ul>
-<div><img src="../../images/docs/conversion/06.png"></div>
+<div><img src="../../images/docs/conversion/08.png"></div>
 
 
     <div class="pager">

@@ -13,7 +13,7 @@
 <link rel="mask-icon" href='https://thegixo.github.io/GBHToolDocs/favicons/safari-pinned-tab.svg'  color="#004750">
 <link rel="shortcut icon" href='https://thegixo.github.io/GBHToolDocs/favicons/favicon.ico'>
 <meta name="msapplication-config" content='https://thegixo.github.io/GBHToolDocs/favicons/browserconfig.xml'>
-<title>Presets | GBH Tool Documentations</title><meta property="og:title" content="Presets" />
+<title>Presets and Copy Modifiers | GBH Tool Documentations</title><meta property="og:title" content="Presets and Copy Modifiers" />
 <meta property="og:description" content="UI Presets section is located under hair object selection section in the add-on&#39;s panel.
 Categories Presets are categorized into four groups:
 Hair Strands Hair Cards Stylized Hair Hair Objects Categories are only used to organize presets. The &quot;Hair Objects&quot; category has one difference from the other categories and that&#39;s it saves/loads the hair object itself as well. This means that you can import hair objects from this category without the need to make and select a hair object first." />
@@ -21,14 +21,14 @@ Hair Strands Hair Cards Stylized Hair Hair Objects Categories are only used to o
 <meta property="og:url" content="https://thegixo.github.io/GBHToolDocs/docs/presets/" /><meta property="article:section" content="docs" />
 
 <meta property="article:modified_time" content="2023-04-08T12:06:31+03:30" />
-<meta itemprop="name" content="Presets">
+<meta itemprop="name" content="Presets and Copy Modifiers">
 <meta itemprop="description" content="UI Presets section is located under hair object selection section in the add-on&#39;s panel.
 Categories Presets are categorized into four groups:
 Hair Strands Hair Cards Stylized Hair Hair Objects Categories are only used to organize presets. The &quot;Hair Objects&quot; category has one difference from the other categories and that&#39;s it saves/loads the hair object itself as well. This means that you can import hair objects from this category without the need to make and select a hair object first.">
 <meta itemprop="dateModified" content="2023-04-08T12:06:31+03:30" />
-<meta itemprop="wordCount" content="205">
+<meta itemprop="wordCount" content="259">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Presets"/>
+<meta name="twitter:title" content="Presets and Copy Modifiers"/>
 <meta name="twitter:description" content="UI Presets section is located under hair object selection section in the add-on&#39;s panel.
 Categories Presets are categorized into four groups:
 Hair Strands Hair Cards Stylized Hair Hair Objects Categories are only used to organize presets. The &quot;Hair Objects&quot; category has one difference from the other categories and that&#39;s it saves/loads the hair object itself as well. This means that you can import hair objects from this category without the need to make and select a hair object first."/>
@@ -69,6 +69,9 @@ Hair Strands Hair Cards Stylized Hair Hair Objects Categories are only used to o
 		</li>
 		<li class="nav-item">
 			<a class="nav-link" href="https://thegixo.github.io/GBHToolDocs/tutorials/"><span>Tutorials</span></a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="https://thegixo.github.io/GBHToolDocs/changelog/"><span>Changelog</span></a>
 		</li>
 		
 		<li class="nav-item nav_repo">
@@ -121,12 +124,13 @@ Hair Strands Hair Cards Stylized Hair Hair Objects Categories are only used to o
     <li><a href="#changing-hairs-material">Changing hair's material</a></li>
   </ul>
 </nav>
-        <h3 class="section_link active"><a id="docs-presets" href="https://thegixo.github.io/GBHToolDocs/docs/presets/">Presets</a></h3><nav id="TableOfContents">
+        <h3 class="section_link active"><a id="docs-presets-and-copy-modifiers" href="https://thegixo.github.io/GBHToolDocs/docs/presets/">Presets and Copy Modifiers</a></h3><nav id="TableOfContents">
   <ul>
     <li><a href="#ui">UI</a></li>
     <li><a href="#categories">Categories</a></li>
     <li><a href="#applying-presets-to-hair-object">Applying presets to hair object</a></li>
     <li><a href="#savingremoving-presets">Saving/removing presets</a></li>
+    <li><a href="#copying-modifiers-and-nodes-groups-from-another-hair-object">Copying modifiers and nodes groups from another hair object</a></li>
   </ul>
 </nav>
         <h3 class="section_link"><a id="docs-hair-modification" href="https://thegixo.github.io/GBHToolDocs/docs/hair_modification/">Hair Modification</a></h3><nav id="TableOfContents">
@@ -160,6 +164,8 @@ Hair Strands Hair Cards Stylized Hair Hair Objects Categories are only used to o
     <li><a href="#to-mesh">To mesh</a></li>
     <li><a href="#to-curve">To curve</a></li>
     <li><a href="#to-hair-curves">To hair curves</a></li>
+    <li><a href="#attach-hair-curves-to-surface">Attach hair curves to surface</a></li>
+    <li><a href="#particle-systems-to-hair-curves">Particle systems to hair curves</a></li>
     <li><a href="#to-particle-systemdeprecated">To particle system(deprecated)</a></li>
   </ul>
 </nav>
@@ -169,9 +175,19 @@ Hair Strands Hair Cards Stylized Hair Hair Objects Categories are only used to o
     <li><a href="#creating-armature">Creating armature</a></li>
   </ul>
 </nav>
+        <h3 class="section_link"><a id="docs-hair-card-texturing" href="https://thegixo.github.io/GBHToolDocs/docs/hair_card/">Hair Card Texturing</a></h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#ui">UI</a></li>
+    <li><a href="#start-creating-textures">Start creating textures</a></li>
+    <li><a href="#creating-hair-objects">Creating hair objects</a></li>
+    <li><a href="#camera-settings">Camera settings</a></li>
+    <li><a href="#output-settings">Output settings</a></li>
+  </ul>
+</nav>
         <h3 class="section_link"><a id="docs-preferences" href="https://thegixo.github.io/GBHToolDocs/docs/preferences/">Preferences</a></h3><nav id="TableOfContents">
   <ul>
     <li><a href="#ui">UI</a></li>
+    <li><a href="#update-checker">Update checker</a></li>
     <li><a href="#toggle-panels">Toggle panels</a></li>
     <li><a href="#library-settings">Library settings</a></li>
     <li><a href="#open-add-ons-installation-sub-folders">Open add-on's installation sub-folders</a></li>
@@ -182,7 +198,7 @@ Hair Strands Hair Cards Stylized Hair Hair Objects Categories are only used to o
 </aside>
 
   <main class="content">
-    <h1>Presets</h1><h2 id="ui">UI</h2>
+    <h1>Presets and Copy Modifiers</h1><h2 id="ui">UI</h2>
 <p>Presets section is located under hair object selection section in the add-on's panel.</p>
 <img src="../../images/docs/presets/01.png">
 <hr>
@@ -220,6 +236,13 @@ To do so, while the hair object and the relevant category is selected, enter a n
 <img src="../../images/docs/presets/07.png">
 <p>You can delete the presets you saved as well as pre-made examples by selecting them in the list and clicking on the minus button.</p>
 <img src="../../images/docs/presets/08.png">
+<hr>
+<h2 id="copying-modifiers-and-nodes-groups-from-another-hair-object">Copying modifiers and nodes groups from another hair object</h2>
+<p>While the hair is selected in the add-on's hair panel, open the &quot;Copy Modifiers and Node Groups&quot; section.
+In the picker filed select the hair object you want to copy modifiers from.</p>
+<img src="../../images/docs/presets/09.png">
+<p>After selecting the hair object &quot;Copy Modifiers from Selected Object&quot; button will appear.</p>
+<img src="../../images/docs/presets/10.png">
     <div class="pager">
   
     
