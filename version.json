@@ -1,26 +1,22 @@
 {
     "gbh_tool_stable": {
         "name": "GBH Tool",
-        "version": "2.1.1.0",
+        "version": "2.1.2.0",
         "blender_version": "3.5.0",
         "release_type": "stable",
         "message": "Your feedback is highly appreciated and helpful, contact info is found under the info panel.",
         "changelog": [
-            "feat: custom panel toggle pie menu shortcut selection",
-            "fix: default panel toggle pie menu shortcut to Ctrl + Shift + H",
-            "fix: minor bug fixes"
+            "fix: open file from add-on's preferences"
         ]
     },
     "gbh_tool_latest": {
         "name": "GBH Tool",
-        "version": "2.1.1.0",
+        "version": "2.1.2.0",
         "blender_version": "3.5.0",
         "release_type": "stable",
         "message": "Your feedback is highly appreciated and helpful, contact info is found under the info panel.",
         "changelog": [
-            "feat: custom panel toggle pie menu shortcut selection",
-            "fix: default panel toggle pie menu shortcut to Ctrl + Shift + H",
-            "fix: minor bug fixes"
+            "fix: open file from add-on's preferences"
         ]
     }
 }
