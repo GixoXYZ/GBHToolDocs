@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Changelog on GBH Tool Documentations</title>
-    <link>https://thegixo.github.io/GBHToolDocs/changelog/</link>
+    <link>https://notgixo.github.io/GBHToolDocs/changelog/</link>
     <description>Recent content in Changelog on GBH Tool Documentations</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://thegixo.github.io/GBHToolDocs/changelog/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://notgixo.github.io/GBHToolDocs/changelog/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
