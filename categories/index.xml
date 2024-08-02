@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on GBH Tool Documentations</title>
-    <link>https://GixoXYZ.github.io/GBHToolDocs/categories/</link>
+    <link>https://gixo.xyz/GBHToolDocs/categories/</link>
     <description>Recent content in Categories on GBH Tool Documentations</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="https://GixoXYZ.github.io/GBHToolDocs/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gixo.xyz/GBHToolDocs/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
