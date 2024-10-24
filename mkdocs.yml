@@ -1,0 +1,184 @@
+site_name: GBH Tool Documentations
+site_url: https://gixo.xyz/GBHToolDocs
+
+# Repository
+#repo_name: GixoXYZ/BlenderGBHTool
+#repo_url: https://github.com/GixoXYZ/BlenderGBHTool
+
+theme:
+  name: material
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - header.autohide
+    - navigation.expand
+    - navigation.indexes
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - toc.integrate
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: #311B92
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: #311B92
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: Inter Mono
+  favicon: assets/favicon.ico
+  logo: assets/logo.svg
+
+
+plugins:
+  - glightbox
+  - social
+  - blog
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+
+extra_css:
+  - stylesheets/extra.css
+  
+extra:
+  version:
+    provider: mike
+  generator: false
+  status:
+    new: Recently added
+    deprecated: Deprecated
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+  social:
+    - icon: simple/protonmail
+      link: mailto:GixoXYZ@proton.me
+    - icon: simple/github
+      link: https://github.com/GixoXYZ
+    - icon: simple/youtube
+      link: https://www.youtube.com/channel/UCAEqxOEyuEUxcSvBO1eF75w
+    - icon: simple/x
+      link: https://twitter.com/GixoXYZ
+    - icon: simple/instagram
+      link: https://www.instagram.com/GixoXYZ/
+    - icon: simple/discord
+      link: https://discord.com/invite/TxTpJ8FQaz
+    - icon: simple/mastodon
+      link: https://mastodon.social/@gixo
+    - icon: simple/patreon
+      link: https://www.patreon.com/Gixo
+    - icon: simple/gumroad
+      link: https://gixo.gumroad.com
+    - icon: simple/blender
+      link: https://blendermarket.com/creators/gixo
+
+
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/mkdocs.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+copyright: |
+  &copy; 2024 <a href="https://gixo.xyz"  target="_blank" rel="noopener">Gixo</a>
+
+not_in_nav: |
+  /tutorials/**/*.md
+
+# Page tree
+nav:
+  - Home: index.md
+  - Getting Started:
+    - getting_started/index.md
+    - Download: getting_started/download.md
+    - Installation: getting_started/installation.md
+  - Hair and Presets:
+    - hair_and_presets/index.md
+    - Hair: hair_and_presets/hair.md
+    - Presets: hair_and_presets/presets.md
+    - Hair Modification: hair_and_presets/hair_modification.md
+    - Copying Modifiers: hair_and_presets/copying_modifiers.md
+  - Library:
+    - library/index.md
+    - UI: library/ui.md
+    - Node Groups: library/node_groups.md
+    - Materials: library/materials.md
+  - Hair Card Texture Creation: hair_card_texture_creation/index.md
+  - Convert Hair: convert_hair/index.md
+  - Rigging:
+    - rigging/index.md
+    - Armature Creation: rigging/armature_creation.md
+    - Automatic Weight Paint: rigging/automatic_weight_paint.md
+  - Preferences:
+    - preferences/index.md
+    - Update Check: preferences/update_check.md
+    - UI Toggles: preferences/ui_toggles.md
+    - Keyboard Shortcuts: preferences/keyboard_shortcuts.md
+    - Library Settings: preferences/library_settings.md
+    - Asset Management: preferences/asset_management.md
+  - Pie Menus: pie_menus/index.md
+  - Blog:
+    - blog/index.md
